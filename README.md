@@ -1,6 +1,6 @@
 ## Image storage 
 
-The project is a simple social media application with the ability to add, delete, and view images. It is written in pure PHP using the Model-View-Controller (MVC) pattern. The application is placed into two Docker containers.
+The project is a social media application with the ability to add, delete, and share images with your friends. It is written in pure PHP using the Model-View-Controller (MVC) pattern. The application is placed into two Docker containers.
 
 ### Start-up preparation
 
