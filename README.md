@@ -1,22 +1,40 @@
-## Image storage 
+<div align="center">
+<h3>Image Storage</h3>
+<p>
 
-The project is a social media application with the ability to add, delete, and share images with your friends. It is written in pure PHP using the Model-View-Controller (MVC) pattern. The application is placed into two Docker containers.
+[![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?&logo=php&logoColor=white)](#) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#) [![MVC](https://img.shields.io/badge/MVC-2088FF?logo=proton%20drive&logoColor=white)](#)
 
-### Start-up preparation
+</p>
+</div>
 
-To launch the application, you need a Docker on your local machine. The docker-compose file will launch two containers. First is for the apache server with PHP, and the second is for MySQL database.  
-**Note** that apache server using the port `80`. 
+The project is a CRUD-based social media application implemented in pure PHP following the Model-View-Controller (MVC) architectural pattern.
 
-### Instalation
+## ✨ Features
 
-1. Dowload the repository
-2. Go to root folder with the `Docker-compose.yml`
-3. Run the `Docker-compose.yml` file
+- **User Registration and Login**: Users can create accounts and log in to the application.
+- **Image Upload**: Users can upload images to the application.
+- **Image Storage**: Uploaded images are stored in a directory on the server.
+- **Image Display**: Users can view uploaded images.
+- **Image Deletion**: Users can delete their uploaded images.
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/krasnw/img-strg-Docker.git
 ```
-docker-compose up
+
+2. Go to root folder of the project:
+
+```bash
+cd img-strg-Docker
 ```
-3. Open in your browser `http://localhost/main_project/welcomepage.php`
 
-### Version without Docker
+3. Run the following command.
 
-[Image Storage Non-Docker](https://github.com/krasnw/img-strg-Non-Docker)
+```bash
+docker-compose up -d --build
+```
+
+3. Open your browser and navigate to: `http://localhost:3456/main_project/welcomepage.php`
