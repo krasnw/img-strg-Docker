@@ -1,0 +1,15 @@
+/vendor/
+/composer.lock
+/.env
+/bootstrap/cache/
+/storage/logs/
+/public/storage/
+/node_modules/
+/npm-debug.log
+/.idea/
+Homestead.json
+Homestead.yaml
+.vagrant/
+
+.vscode/
+/.DS_Store

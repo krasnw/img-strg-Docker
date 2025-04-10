@@ -1,14 +1,14 @@
 body {
-    font-family: Montserrat, sans-serif;
-    color: #fff;
-    background-image: url(../img/bodybackground2.jpg);
-    background-repeat: repeat-y;
-    overflow-y: scroll;
-    margin: 0;
-}
-
-body::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari and Opera */
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  background-image: url(../img/bodybackground2.jpg);
+  background-repeat: repeat-y;
+  overflow-y: scroll;
+  overscroll-behavior: none;
+  -webkit-overscroll-behavior: none;
+  -ms-scroll-chaining: none;
+  scroll-behavior: smooth;
+  margin: 0;
 }
 
 nav {

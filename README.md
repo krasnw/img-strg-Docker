@@ -38,3 +38,9 @@ docker-compose up -d --build
 ```
 
 3. Open your browser and navigate to: `http://localhost:3456/main_project/welcomepage.php`
+
+## 🎥 Demo
+
+You can use prepared credentials to log in:  
+login: `qwerty`  
+password: `qwerty`
